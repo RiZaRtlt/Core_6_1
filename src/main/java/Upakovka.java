@@ -27,4 +27,11 @@ public class Upakovka {
         return list;
     }
 
+    public long testOnNolInZnam() {
+        List<Upakovka> list = generUpak();
+        long rezult = list.stream()
+                .filter(elem -> elem.znam == 0)
+                .count();
+        return rezult;
+    }
 }

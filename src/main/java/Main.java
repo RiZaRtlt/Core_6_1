@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         //в 1С есть свой автотестер Vanessa-ADD в работе с которой у меня больше года опыта
         // зачем нужны тесты до боли знакомо.
         // Т.к. мне сложно придумать какие-то примеры на прошлых домашних работах,
